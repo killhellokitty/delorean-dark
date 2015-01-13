@@ -1117,7 +1117,7 @@ style "entry"
 	xthickness	= 3
 	ythickness   	= 4
 
-        base[NORMAL] = "#dbdbdb" #Non Gtk apps like Spotify and Opera use this as the entry text-input color. So its better to color the images for the entry background colors#
+        base[NORMAL] = @bg_color #Non Gtk apps like Spotify and Opera use this as the entry text-input color. So its better to color the images for the entry background colors#
         base[INSENSITIVE]       = @insensitive_bg_color
         text[SELECTED]  	= "#fff"
         text[NORMAL] 		= "#d2d2d2"
